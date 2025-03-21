@@ -1,0 +1,40 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.series{
+    /* justify-content: space-evenly; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-color: rgba(255, 19, 94, 0.904);
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.series > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.series > div > a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.317);
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+
+}
