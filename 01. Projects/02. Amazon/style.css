@@ -1,0 +1,14 @@
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #2f4d4d;    
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    font-family: inherit;
+}
