@@ -1,0 +1,21 @@
+/* SamsungS23.css */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div{
+    /* background-color: rgba(56, 34, 255, 0.954); */
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border: double black;
+  }
+  button{
+  margin-left: 160px;
+  }
+  img{
+    margin-left: 50px;
+  }
+  
+  
