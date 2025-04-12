@@ -1,0 +1,29 @@
+b{
+    color: red;
+    border: 3px solid red;
+}
+p{
+    font-size: 30px;
+
+}
+strong{
+    background-color: aqua;
+    border: 3px double green;
+}
+/* element selector */
+u{
+    background-color: blueviolet;
+}
+/* id selector */
+#heading1{
+    color: yellow;
+}
+/* class selector */
+.h1{
+    background-color: brown;
+    width: 200px;
+}
+
+#heading5{
+    background: lightblue;
+}
