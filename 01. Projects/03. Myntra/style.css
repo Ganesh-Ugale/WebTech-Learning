@@ -12,14 +12,25 @@
     /* border: 1px solid; */
 }
 
+
 /* Nav bar */
 nav{
     height: 13vh;
-    width: 100%;
-    /* border: 1px solid red; */
+    width: 99.9%;
+    border: 1px solid red;
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    background-color: white;
+
+}
+
+/* To sticky the header nav bar */
+header{
+    position: sticky;
+    top: 0px;
 }
 
 /* Navbar tabs */
@@ -133,7 +144,7 @@ input:focus{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2); */
 }
 
 /* Inside the timer div paragraph */
@@ -168,15 +179,17 @@ input:focus{
 
 
 /* Main body 1st top img */
-main > div:first-child{
-    width: 100%;
+main > div:first-child > a{
+    width: 99.9%;
     height: 29vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     display: flex;
     align-items: end;
     justify-content: center;
 }
+
+/* Main body 1st top img size*/
 [src *="img1.jpg"]{
     width: 85%;
 }
@@ -192,7 +205,213 @@ main > div:first-child{
 main > div:nth-child(2) > div{
     width: 85vw;
     height: 46vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+/* img main body gif img and below 2 imgs box */
+main + main > div{
+    width: 85vw;
+    height: 20vh;
+    /* border: 1px solid red; */
+}
+
+/* 2nd main body last 3 imgs from gif */
+main + main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main + main > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* usecode container */
+.usecode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* use code 2 imgs */
+.usecode > a img{
+    width: 100%;
+}
+
+/* last sky-highlight img container */
+main + main > div:nth-child(3){
+    display: flex;
+    justify-content: center;
+
+}
+
+/* last sky-highlight img */
+main + main > div:nth-child(3) img{
+    width: 100%;
+}
+
+/* cardsRow1 Container */
+.cardsRow1{
+    width: 99.9%;
+    height: 300px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* cardsRow1 all cards container */
+.cardsRow1 > section{
+    width: 17vw;
+    height: 20vw;
+    /* border: 1px solid red; */
+    display: flex;
 }
 
 
+/* cardsRow1 img 1 */
+.cardsRow1 > section:nth-child(1) a{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+
+    background-image: url(./assets/img8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* cardsRow1 img 2 */
+.cardsRow1 > section:nth-child(2) a{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+
+    background-image: url(./assets/img9.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* cardsRow1 img 3 */
+.cardsRow1 > section:nth-child(3) a{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+
+    background-image: url(./assets/img10.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* cardsRow1 img 4 */
+.cardsRow1 > section:nth-child(4) a{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+
+    background-image: url(./assets/img11.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* cardsRow1 img 5 */
+.cardsRow1 > section:nth-child(5) a{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+
+    background-image: url(./assets/img12.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* explorebyCategory container*/
+#explorebyCategory{
+    width: 99.9%;
+    height: 150px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* explorebyCategory container */
+#explorebyCategory a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* explorebyCategory img */
+[src *= "img13.jpg"]{
+    width: 80%;
+}
+
+/* cardsBody div container */
+.cardsBody{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* cardsBody articles container */
+.cardsBody > article {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+/* cardsBody all sections */
+.cardsBody > article > section{
+    /* border: 1px solid red; */
+    width: 12vw;
+    height: 18vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* All Cards a tags and img tags */
+.cardsBody > article > section > a, img{
+    width: 100%;
+    height: 100%;
+}
+
+/* All Cards anchor tag  */
+.cardsBody > article > section > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* offer Verticl img at right mid*/
+.offerVerticlimg [src *= img38]{
+    width: 45px;
+    height: 288px;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+}
