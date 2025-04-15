@@ -415,3 +415,129 @@ main + main > div:nth-child(3) img{
     top: 200px;
     right: 0px;
 }
+
+/* Footer Container */
+footer{
+    /* border: 1px solid red; */
+    width: 99.9%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* footer column 1, 2 */
+footer > section:nth-child(1),section:nth-child(2){
+    /* border: 1px solid red; */
+    width: 15%;
+    height: 50%;  
+
+}
+
+/* Footer column 3 */
+footer > section:nth-child(3){
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 50%;  
+}
+
+/* Footer column 4 */
+footer > section:nth-child(4){
+    /* border: 1px solid red; */
+    width: 34%;
+    height: 50%; 
+    display: flex;
+    align-items: center; 
+}
+
+/* Column 1 small heading */
+footer small{
+    font-size: 13px;
+}
+
+/* column 1 content */
+footer  p{
+    font-weight: 500;
+    color: #696b79;
+    height: 3px;
+} 
+
+/* footer column 1 container */
+footer > section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* footer last column */
+footer > section:nth-child(4) strong, p{
+    font-size: 16px;
+}
+
+/* Popular searchers section */
+.popular{
+    border: 1px solid red;
+    width: 99.9%;
+    height: 280px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.popular > section{
+    border: 1px solid red;
+    width: 85%;
+}
+
+.popular > section > small{
+    font-size: 12px;
+}
+
+hr{
+    
+    /* display: flex; */
+    display: inline-block;
+    width: 85.5%;
+    border-top: 1px solid #e2e2e8;
+    /* justify-content: end; */
+}
+
+.popular > section:nth-child(1) > p{
+    font-weight: 500;
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact p{
+   color: #696b79; 
+   font-weight: 500;
+}
+.contact p strong{
+    font-size: 1em;
+    color: #526cd0;
+}
+
+.contact > p:nth-child(2),p:nth-child(3){
+    color: #94969f;;
+}
+.hr2{
+    width: 100%;
+}
+
+.popular > section:nth-child(2){
+    border: 1px solid red;
+    display: flex;
+}
+
+
+.address{
+    
+}
