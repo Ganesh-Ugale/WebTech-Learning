@@ -17,7 +17,7 @@
 nav{
     height: 13vh;
     width: 99.9%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     display: flex;
     justify-content: space-evenly;
@@ -300,6 +300,8 @@ main + main > div:nth-child(3) img{
     background-position: center;
 }
 
+
+
 /* cardsRow1 img 3 */
 .cardsRow1 > section:nth-child(3) a{
     /* border: 1px solid red; */
@@ -428,7 +430,7 @@ footer{
 }
 
 /* footer column 1, 2 */
-footer > section:nth-child(1),section:nth-child(2){
+footer > section:nth-child(1),footer > section:nth-child(2){
     /* border: 1px solid red; */
     width: 15%;
     height: 50%;  
@@ -477,7 +479,7 @@ footer > section:nth-child(4) strong, p{
 
 /* Popular searchers section */
 .popular{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 99.9%;
     height: 280px;
     
@@ -486,7 +488,7 @@ footer > section:nth-child(4) strong, p{
 }
 
 .popular > section{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 85%;
 }
 
@@ -526,18 +528,75 @@ hr{
 }
 
 .contact > p:nth-child(2),p:nth-child(3){
-    color: #94969f;;
+    color: #94969f;
 }
 .hr2{
     width: 100%;
 }
 
 .popular > section:nth-child(2){
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 
 
 .address{
+    /* border: 1px solid red; */
+    width: 99.9%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+
     
+    
+}
+
+.address > div{
+    /* border: 1px solid red; */
+    height: 75%;
+    width: 85%;
+    display: flex;
+}
+
+.address > div > section:nth-child(1){
+    /* border: 1px solid rgb(51, 255, 0); */
+    height: 75%;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.address > div > section:nth-child(2){
+    /* border: 1px solid rgb(51, 255, 0); */
+    height: 75%;
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.address > div > section:nth-child(1) > p{
+    font-weight: 500;
+    text-decoration: none;
+    color: #94969f;
+    font-size: 15px;
+    /* line-height: 20px; */
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+}
+
+.address > div > section:nth-child(2) > p{
+    font-weight: 500;
+    text-decoration: none;
+    color: #94969f;
+    font-size: 16px;
+    /* line-height: 20px; */
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+}
+
+.address > div > section:nth-child(2) strong{
+    color: #526cd0; 
 }
