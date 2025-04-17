@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+<body>
+    <h1 style="display: flex;align-items: center;justify-content: center;">Form Tag</h1>
+    <h1>Input Types of Input Tag</h1>
+    <form action="">
+        <label for="text">text : </label>
+        <input type="text" name="Username" value="setInputUsingValue" id="text"><br><br>
+        <label for="num">number : </label>
+        <input type="number" name="num" value="12345" id="num"><br><br>
+        <label for="pass">password : </label>
+        <input type="password" id="pass"><br><br>
+        <label for="color">color : </label>
+        <input type="color" name="color" id="color"><br><br>
+        <label for="date">date : </label>
+        <input type="date" name="date" id="date"><br><br>
+        <label for="datetime">datetime : </label>
+        <input type="datetime-local" name="datetime" id="datetime"><br><br>
+        <label for="email">email : </label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="file">file : </label>
+        <input type="file" name="file" id="file"><br><br>
+        <label for="hidden">hidden : </label>
+        <input type="hidden" name="hidden" value="it is hidden input" id="hidden"><br><br>
+        <label for="month">month : </label>
+        <input type="month" name="month" id="month"><br><br>
+        <label for="search">search</label>
+        <input type="search" name="searchbox" id="search"><br><br>
+        <label for="week">week : </label>
+        <input type="week" name="week" id="week"><br><br>
+        <label for="url">url : </label>
+        <input type="url" name="url" id="url"><br><br>
+        <label for="tel">tel : </label>
+        <input type="tel" name="tel" id="tel"><br><br>
+        <label for="submit">submit : </label>
+        <input type="submit" value="Click Here" id="submit"><br><br>
+        <label for="range">range : </label>
+        <input type="range" min="0" max="1000" step="100" id="range"><br><br>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="checkbox" id="html">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="checkbox" id="css">
+
+        
+        
+
+    </form>
+    <script>
+        let input = document.querySelector("input");
+        let span = document.querySelector("span");
+        input.addEventListener("input", (e) => {
+            console.log(e.target.value);
+            span.innerText = input.value;
+        });
+    </script>
+</body>
+</html>
