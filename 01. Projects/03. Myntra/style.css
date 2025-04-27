@@ -440,17 +440,36 @@ footer > section:nth-child(1),footer > section:nth-child(2){
 /* Footer column 3 */
 footer > section:nth-child(3){
     /* border: 1px solid red; */
-    width: 20%;
+    width: 25%;
     height: 50%;  
+}
+
+/* Footer colum3 , 2 imgs */
+.googleplay img{
+    width: 130px;
+    height: 43px;
+}
+
+.socialMedia img{
+    margin-top: -10px;
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    padding: 5px;
 }
 
 /* Footer column 4 */
 footer > section:nth-child(4){
     /* border: 1px solid red; */
-    width: 34%;
+    width: 29%;
     height: 50%; 
     display: flex;
     align-items: center; 
+}
+
+footer > section:nth-child(4) > img{
+    width: 30px;
+    height: 30px;
 }
 
 /* Column 1 small heading */
@@ -474,7 +493,14 @@ footer > section{
 
 /* footer last column */
 footer > section:nth-child(4) strong, p{
+    display: inline-block;
+    /* border: 1px solid red; */
     font-size: 16px;
+}
+
+footer > section:nth-child(4) img{
+    /* border: 1px solid red; */
+    width: 50px;
 }
 
 /* Popular searchers section */
