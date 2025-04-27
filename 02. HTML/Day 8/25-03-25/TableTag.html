@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        td{
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Table Tag</h1>
+    <!-- Using Table Tag we can draw a table on webpage -->
+    <table border="1" style="border-collapse: collapse;">
+        <!-- Using tr Tag we can add a row of table -->
+        <tr>
+            <!-- Using td tag we can put data in the row i.e number of td tag == number of columns -->
+            <td>Name</td>
+            <td>Phone</td>
+            <td>Mobile</td>
+            <td>Place</td>
+        </tr>
+        <tr>
+            <td>Ganesh</td>
+            <td>8999169526</td>
+            <td>1234567890</td>
+            <td>Nashik</td>
+        </tr>
+        <tr>
+            <td>Sonu</td>
+            <td>7972862546</td>
+            <td>1234567890</td>
+            <td>Pune</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <h1>Using Colspan attribute</h1>
+    <!-- Using Table Tag we can draw a table on webpage -->
+    <table border="1" style="border-collapse: collapse;">
+        <!-- Using tr Tag we can add a row of table -->
+        <tr>
+            <!-- Using td tag we can put data in the row i.e number of td tag == number of columns -->
+            <td>Name</td>
+            <td colspan="2">Phone</td>
+            <td>Place</td>
+        </tr>
+        <tr>
+            <td>Ganesh</td>
+            <td>8999169526</td>
+            <td>1234567890</td>
+            <td>Nashik</td>
+        </tr>
+        <tr>
+            <td>Sonu</td>
+            <td>7972862546</td>
+            <td>1234567890</td>
+            <td>Pune</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <h1>Using rowspan attribute</h1>
+    <table border="1" style="border-collapse: collapse;">
+        <!-- Using tr Tag we can add a row of table -->
+        <tr>
+            <!-- Using td tag we can put data in the row i.e number of td tag == number of columns -->
+            <td>Sr No</td>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Place</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Ganesh</td>
+            <td>Ugale</td>
+            <td>Nashik</td>
+        </tr>
+        <tr>
+            <td>Sonu</td>
+            <td>Uale</td>
+            <td>Pune</td>
+        </tr>
+    </table>
+</body>
+</html>

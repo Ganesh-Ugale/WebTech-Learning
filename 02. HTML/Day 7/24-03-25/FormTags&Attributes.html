@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+<body>
+    <h1>Input Types Attributes and Value types</h1>
+    
+    <form action="">
+        <!-- ChechBox Button-->
+        <h3>Checkboxes</h3>
+        <label for="checkbox1"> HTML</label>
+        <input type="checkbox" name="" id="checkbox1">
+        <label for="checkbox2"> CSS</label>
+        <input type="checkbox" name="" id="checkbox2">
+        <label for="checkbox3"> JavaScript</label>
+        <input type="checkbox" name="" id="checkbox3">
+
+        <!-- Radio Button -->
+         <!-- NOTE: for all Radio button name attribute value is must be same -->
+        <h3>Radio</h3>
+        <label for="radio1"> Male</label>
+        <input type="radio" name="gender" id="radio1">
+        <label for="radio2"> Female</label>
+        <input type="radio" name="gender" id="radio2">
+        <label for="radio3"> Transgender</label>
+        <input type="radio" name="gender" id="radio3">
+
+        <!-- Button Type -->
+         <h3>Button Type</h3>
+         <button type="submit">Submit</button>
+         <!-- Using Reset value the webpage is not refresh it only reset the form -->
+         <button type="reset">Reset Form</button><br><br>
+
+         <h3>How Input Filed Focused after click on label</h3>
+         <label for="text">Name : </label>
+         <input type="text" name="" id="text">
+         <label for="password">Password : </label>
+         <input type="password" name="" id="password">
+         <label for="number">Age : </label>
+         <input type="number" name="" id="number">
+
+         <h3>TextArea Tag for large input text</h3>
+         <!-- the values of rows and cols attribute means thoese char you can type 3 means 3 char -->
+         <textarea rows="3" cols="10">this is for big data input</textarea>
+
+         <h3>Select Tag</h3>
+         <label for=>Select Your Country : </label>
+         <select name="County" id="">
+            <option value="">Select your country : </option>
+            <option value="+91">India</option>
+            <option value="+92">Pakistan</option>
+            <option value="+82">USA</option>
+            <option value="+65">Shrilanka</option>
+         </select>
+
+         <br><br>
+         <label for=>Select your Fav Car : </label>
+         <select name="cars" id="">
+            <option value="car1">Swift Dsire</option>
+            <option value="car2">BMW</option>
+            <option value="car3">Range Rover</option>
+            <option value="car4">Tata Nano</option>
+            <option value="car5">Tesla</option>
+         </select>
+
+    </form>
+
+    <h3>Fieldset and Legend Tags</h3>
+    <form action="" method="">
+        <fieldset>
+            <Legend>Login Form</Legend>
+            <h3>readonly attribute</h3>
+            <!-- reaadonly Attributes -->
+            <label for="text1">Name : </label>
+            <input type="text" name="" id="text1" readonly value="readonly Attribute"><br><br>
+            <label for="password1">Password : </label>
+            <input type="password" name="" id="password1"><br><br>
+            <label for="number1">Age : </label>
+            <input type="number" name="" id="number1"> <br><br>
+            <!-- disabled -->
+             <h3>disabled attribute</h3>
+            <button disabled>Click Me</button><br><br>
+            <h3>placeholder</h3>
+            <!-- placeholder -->
+            <label for="">Enter your Username : </label>
+            <input type="text" name="" id="" placeholder="placeholder">
+            <br><br>
+            <!-- Minlen & maxlen attributes -->
+             <h3>Using minlength & maxlength</h3>
+             <label for="pass">Enter Password : </label>
+             <input type="password" name="" id="" minlength="8" > <br><br>
+             <label for="pass">Enter Phone : </label>
+             <input type="text" name="" id="" minlength="14" maxlength="14" value="+91" >
+
+             <h3>accesskey attribute</h3>
+             <!-- Using accesskey Attribute to focus the fields using shortcut keys using alt key + char -->
+             <label for="text1">Name : </label>
+             <input type="text" name="" id="text1" accesskey="a"><br><br>
+             <label for="password1">Password : </label>
+             <input type="password" name="" id="password1" accesskey="b"><br><br>
+             
+             <!-- Using Autofocus attribute after open webpage automatically focus on setteled fileds that set autofous -->
+             <h3>autofocus attribute</h3>
+             <label for="text1">Name : </label>
+             <input type="text" name="" id="text1" autofocus><br><br>
+             <label for="password1">Password : </label>
+             <button>Submit</button>
+
+             <!-- using size we can set gives the size of input box -->
+             <h3>Size attribute</h3>
+             <label for="text1">Name : </label>
+             <input type="text" name="" id="text1" size="3"><br><br>
+        </fieldset>
+    
+    </form>
+</body>
+</html>
