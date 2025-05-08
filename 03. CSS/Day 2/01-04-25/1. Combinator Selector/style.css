@@ -1,0 +1,20 @@
+/* Gendral Sibling Selector  */
+div ~ section + p{ /* here the p element is targeted*/
+    color: red;
+}
+
+/* Adjecent Sibling Selectors */
+div + article{  /* here the article element is targeted*/
+    color: green;
+}
+
+/* Child Selector */
+div > h1{  /* here the h1 element is targeted*/
+    color: blue;
+}
+
+/* Decendent Selector */
+
+h1 h5{  /* here the h5 element is targeted*/
+   background-color: #34c5a3;
+}

@@ -1,0 +1,60 @@
+/* Pseudo Element Selector */
+
+/* First Letter targeted */
+p::first-letter{
+    font-size: 30px;
+}
+
+/* First Line targeted*/
+h5::first-line{
+    background-color: aquamarine;
+}
+
+/* Selection is target to thoes part where we select the part using cursor that part will change */
+p::selection{
+    background: yellow;
+    color: red;
+}
+
+/* Before with content property we can add the content and use any css property*/
+section::before{
+    content: "Hello Ganesh ";
+    background: lawngreen;
+}
+
+/* after with content property we can add the content and use any css property*/
+section::after{
+    content: "Good Bye! ";
+    background: lawngreen;
+}
+
+/* Marker is the for list, we can change the bullet points like emojis etc */
+.li1::marker{
+    content: "🍎";
+}
+
+.li2::marker{
+    content: "🍉";
+}
+
+.li3::marker{
+    content: "🍫";
+}
+
+.li4::marker{
+    content: "🍡";
+}
+
+.li5::marker{
+    content: "🍓";
+}
+
+.li6::marker{
+    content: "🍇";
+}
+
+.li7::marker{
+    content: "🍒";
+}
+
+/*  */
