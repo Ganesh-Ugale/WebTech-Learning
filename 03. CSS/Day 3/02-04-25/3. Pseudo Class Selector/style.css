@@ -1,0 +1,87 @@
+/* Pseudo Class Selectors means in bulit classes in css are following */
+
+/* hover */
+h2:hover{
+    color: red;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+/* active */
+.a1:active{
+    color: yellow;
+}
+
+/* visited */
+.a2:visited{
+    color: brown;
+}
+
+/* unvisited */
+.a3{
+    color: rgb(0, 0, 0);
+}
+
+/* Combinations of all states */
+/* unvisited state */
+.a4{
+    color: chartreuse;
+}
+
+/* Active State */
+.a4:active{
+    color: red;
+}
+
+/* Visited State */
+.a4:visited{
+    color: darkred;
+}
+
+/* When our filed is focused then we can change the style */
+input:focus{
+    background-color: orange;
+}
+
+/* Hover Message */
+p{
+    width: 200px;
+    background: gainsboro;
+    color: gray;
+    padding: 10px;
+    font-size: 10px;
+    display: none;  /* not display the any text */
+}
+
+/* That measn when i hover on button so display the paragraph block */
+button:hover ~ p{ /* we can use here + or ~ that means rellation must occurs */
+    display: block; /* we can also set it as inline */
+}
+
+
+/* :reuired */
+/* input:required{
+    width: 100px;
+    background-color: #fff;
+} */
+
+/*  Here the body is not target for the first child so element must have a parent except body tag*/
+div:first-child{   /* Strickly the element have a fist in the parent tag */
+    color: red;
+}
+
+div:last-child{ /* the child shoulde be strikly last but after the last child no any ele is allowed */
+    color: blue;
+}
+
+/* :nth-child */
+td:nth-child(even){
+    background-color: lightblue;
+}
+tr:nth-child(odd){
+    background-color: lightsalmon;
+}
+tr:nth-child(even){
+    background-color: lightgreen;
+}
