@@ -1,0 +1,60 @@
+/* bgcolor */
+.bgcolor div{
+    width: 40vw;
+    height: 40vh;
+    background-color: red;
+}
+
+/* bgimage Properties */
+.bgimg div{
+    width: 40vw;
+    height: 40vh;
+    border: 4px solid;
+    font-size: 50px;
+    color: white;
+    
+    background-image: url(./assets/1.png); /*Using this we can put the img on webpage*/
+    background-size: cover; /* OR we can use contain using contains it repeat the img if any space reheta he to*/
+    /* background-repeat: no-repeat; */ /* This property os for if bgsize: contain hogi tabhi ye use apply karke ham img ko repat hone se stop kar sakte he */
+    background-position: center ; /* we can set all 5 positions of img top,bottom, left, right, center*/ 
+}
+
+/* Using color liner gradient bgimg properties */
+.bgimg2 div{
+    width: 40vw;
+    height: 40vh;
+    /* WE can use the 1st parameter the directtions Likes: to top right, left top, bottom all directions etc*/
+    background-image: linear-gradient(to right,red, yellow); /*we can pass n number of colors*/
+    /* border-radius: 20px;  */ /* we can also give the radius it apply on shape and change  it's radius*/
+}
+
+/* bgimage propty: Radial gradient */
+.bgimg3 div{
+    width: 40vw;
+    height: 40vh;
+    background-image: radial-gradient(red, green); /* using raial gradient we can apply multple color combinations*/
+}
+
+/* bgimage property:conic gradient  */
+.bgimg4 div{
+    width: 40vw;
+    height: 40vh;
+    background-image: conic-gradient(red,orange,yellow,green,aqua,blue,pink); /* using raial gradient we can apply multple color combinations*/
+    border-radius: 50%;
+}
+
+/* reapeating linear gradient property */
+.bgimg5 div{
+    width: 40vw;
+    height: 40vh;
+    background-image:repeating-linear-gradient(red 5%,yellow 10%,blue 15%) ; /* using this property we can give the percentage of color*/
+    border-radius: 50%;
+}
+
+/* reapeating radial gradient property */
+.bgimg6 div{
+    width: 40vw;
+    height: 40vh;
+    background-image:repeating-radial-gradient(black 5%,yellow 7%,white 10%) ; /* using this property we can give the percentage of color*/
+    border-radius: 50%;
+}
