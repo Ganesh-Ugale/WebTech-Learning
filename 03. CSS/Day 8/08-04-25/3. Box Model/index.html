@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Padding and Margin</h1>
+    <main>
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+        <div>div4</div>
+    </main>
+
+    <br><br>
+    <fieldset>
+        <legend>Border Properties</legend>
+        <article></article>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Border width Properties</legend>
+        <header></header>
+    </fieldset>
+
+    <fieldset class="borderWidth">
+        <legend>Border width Properties</legend>
+        <p></p>
+    </fieldset>
+
+    <br><br>
+
+    <fieldset class="borderRadius">
+        <legend>Border width Properties</legend>
+        <p></p>
+    </fieldset>
+</body>
+</html>
+
+
+<!-- NOTES: BOX MODEL 
+ 1. CSS INTERVIEW the Display Properties and the Box Model has must Questions this is very imp.
+ 
+ 2. About Box Model i wrriten in rough notebook
+ 3. padding: space between content and border
+ 4. border: border of the element
+ 5. margin: space outside the border
+ 6. box-sizing:border-box ==>  means the actual border size is the same for all time
+    and using this property we can apply padding so the applied ele padding is changed,
+    and the other ele not change there position or any.
+    
+    Using borderder box: size will not change of the ele, not affect to other ele, etc
+    
+7. Always give the priority 1st the width and height then next ==>
+    width/Hight - display Properties - padding - margin - positionProperties
+    
+8. Only the padding we will control using box-sizeing:border box but not margin
+9. Padding is also a shorthand property
+    Ex: paddin-top, padding-right, padding-left,padding-bottom thesse all are the individual property so we can use these all contain in the single padding property
+    Ex: padding: 30, 40, 50, 60;
+    30= this apply all sides
+    if gives 30, 40, 50, 60 so apply on clockwise.
+    if we gives only 3 values  30, 40, 50, so apply from top 10 left and right 40 40 and bottom 50.
+    if we pass 2 values 30, 40 so top and bottom 30 30 and left right 40 40
+    
+    padding values always value apply from top side.
+
+10. Border: it is also a shorthand property
+    Ex: border: 5px solid red
+    5px= is a size of the border
+    solid= is as style of the border(this is compalsory for the border)
+    red= color of border 
+    i.e style is mandatory for apply the other properties
+    
+    INDIVIDUAL PROPERTIES OF BORDER
+    i. border-style: solid OR dashed OR dotted OR double OR grove(for photo frame) OR inset(for inner side frame Only) OR outside(for outside the frame) OR ridge ;
+    ii. border-width: 1px;
+    iii. border-color: red;
+    
+11. border Width is also a Shorthand property has Initividial properties:
+    i. border-width:top
+    ii. border-width: bottom
+    iii. border-width: left
+    iv. border-width: right
+    
+12. Border style is also a Shorthand property has Initividial properties:
+    i. , ii , iii, iv
+
+13. border color is also a Shorthand property has Initividial properties:   
+  i. , ii , iii, iv
+
+14. border sides has also an individual properties
+     i. , ii , iii, iv
+
+15. Border Radius:
+    - if we want to make a cricle so give always 50%
+    - it is also a short hand property
+    - values are apply from left corner side
+    - if we pass 1 value so it apply on all sides corner
+    - ...........
+    it will apply on clock wise
+
+    Properties of border-radius:
+    i. border-radius:top-right;
+    ii. border-radius: top-left;
+    iii.border-radius: bottom-right;
+    iv. border-radius: bottom-left;
+
+
+  
+  --> 
+ 
